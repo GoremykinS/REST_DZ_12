@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9df5209e-a7c5-47ba-9cc3-43fe18579155" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings/prod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings/prod_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings/base.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="27UB3VauLRmiwQpS8ZLJMXr1Y9k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/backend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/frontend/src/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="REST_DZ_12" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/manage.py" />
+      <option name="PARAMETERS" value="runserver --settings=backend.settings.debug" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9df5209e-a7c5-47ba-9cc3-43fe18579155" name="Default Changelist" comment="" />
+      <created>1649364584593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649364584593</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="31" width="800" height="675" key="#Notifications" timestamp="1649878373886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="556" y="31" width="800" height="675" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1649878373886" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649708185817">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1649708185817" />
+    <state x="461" y="69" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1649706191609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="69" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1649706191609" />
+    <state x="399" y="51" width="558" height="621" key="#prod_ext" timestamp="1649706226602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="51" width="558" height="621" key="#prod_ext/0.0.1366.728@0.0.1366.728" timestamp="1649706226602" />
+    <state x="781" y="116" width="424" height="482" key="FileChooserDialogImpl" timestamp="1649706169793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="781" y="116" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1649706169793" />
+    <state x="831" y="257" key="Github.ShareDialog" timestamp="1650306264548">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="831" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1650306264548" />
+    <state x="727" y="67" width="459" height="580" key="Github.UntrackedFilesDialog" timestamp="1649700808273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="727" y="67" width="459" height="580" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1649700808273" />
+    <state width="711" height="168" key="GridCell.Tab.0.bottom" timestamp="1649879986838">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="711" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1649879986838" />
+    <state width="711" height="168" key="GridCell.Tab.0.center" timestamp="1649879986837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="711" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1649879986837" />
+    <state width="711" height="168" key="GridCell.Tab.0.left" timestamp="1649879986837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="711" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1649879986837" />
+    <state width="711" height="168" key="GridCell.Tab.0.right" timestamp="1649879986837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="711" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1649879986837" />
+    <state x="374" y="0" key="SettingsEditor" timestamp="1650306250359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1650306250359" />
+    <state x="625" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1649699591515">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="625" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1649699591515" />
+  </component>
+</project>

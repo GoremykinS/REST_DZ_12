@@ -1,0 +1,47 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:13.5
+    privileged: true
+    restart: always
+    ports:
+      - 54326:5432
+    environment:
+      POSTGRES_USER: serg
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: todo_1
+
+  backend:
+    build: ./backend
+    privileged: true
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+    command: bash -c "
+        python manage.py migrate &&
+        gunicorn backend.wsgi -b 0.0.0.0:8080
+      "
+    environment:
+      DJANGO_SETTINGS_MODULE: 'backend.settings.prod'
+
+  nginx:
+    build: ./nginx
+    privileged: true
+    ports:
+      - 8000:80
+    depends_on:
+      - backend
+
+  frontend:
+    build: ./frontend
+    privileged: true    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: connection to server at "127.0.0.1", port 54326 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+    ports:
+      - 80:80
+    depends_on:
+      - backend
